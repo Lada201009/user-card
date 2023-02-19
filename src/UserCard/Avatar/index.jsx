@@ -1,9 +1,7 @@
-import React from 'react'
-
 function Avatar(props) {
   return (
     <img className='Avatar' 
-    src={props.user.avatarUrl} 
+    src={props.user.photo}
     alt={props.user.name}/>
   );
 }
