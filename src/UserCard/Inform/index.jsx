@@ -1,6 +1,11 @@
 function Inform(props) {
   return (
-    <h2> tweets {props.user.tweets}   subscribers  {props.user.subscribers} subscriptions  {props.user.subscriptions}</h2>
+    <div className="cols">
+     <h2 className="tweets"> tweets{props.user.tweets}</h2>
+     <h2 className="subscribers"> subscribers  {props.user.subscribers}</h2>
+     <h2 className="subscriptions">subscriptions {props.user.subscriptions}
+     </h2>
+    </div>
   );
 }
 

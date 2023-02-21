@@ -2,6 +2,7 @@ import React from 'react';
 import Avatar from './Avatar';
 import Inform from './Inform';
 
+
 function UserCard() {
   let avatar =
   {
@@ -14,12 +15,14 @@ function UserCard() {
       subscriptions: 6254
     };
 return (
-    <>
-    <div>
-     <Avatar user={avatar} />
-     </div>
-     <div><Inform user={inform} /></div>
-    </>
+    <div className='container'>
+       <div className='blockavatar'>
+         <Avatar user={avatar} />
+         <h1>Emma Braun</h1>
+       </div>
+       <div className='information'><Inform user={inform} />
+       </div>
+    </div>
   )
 };
 

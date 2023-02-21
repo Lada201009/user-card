@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  border: 2px solid black;
+  height: 500px;
+  width: 350px;
+  position: absolute;
+  margin-left: 40px;
+}
+
+img{
+  height: 350px;
+  width: 350px;
+  position: relative;
+  
+}
+h1{
+  position: relative;
+  bottom: 90px;
+  text-align: center;
+  color: aliceblue;
+  font-size: 25px;
+}
+.cols{
+  position: relative;
+  column-count: 3;
+  column-gap: 4%;
+}
+h2{
+  font-size: 15px;
+  text-align: center;
+}
+.tweets{
+
+  
+}
+.subscriptions{
+  margin-right: 15px;
+}
+
+
