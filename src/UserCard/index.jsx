@@ -14,6 +14,7 @@ function UserCard() {
       subscribers: 3421,
       subscriptions: 6254
     };
+    
 return (
     <div className='container'>
        <div className='blockavatar'><Avatar user={avatar} /></div>
