@@ -15,14 +15,11 @@ function UserCard() {
       subscriptions: 6254
     };
 return (
-    < className='container'>
-       <div className='blockavatar'>
-         <Avatar user={avatar} />
-         <h1>Emma Braun</h1>
-       </div>
+    <div className='container'>
+       <div className='blockavatar'><Avatar user={avatar} /></div>
+       <div className='information'><Inform user={inform} /></div>
+       <h1>Emma Braun</h1>
        <button>+</button>
-       <div className='information'><Inform user={inform} />
-       </div>
     </div>
   )
 };
