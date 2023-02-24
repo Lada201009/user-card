@@ -10,16 +10,17 @@ function UserCard() {
     name: 'Emma Braun'};
   let inform =
     {
-      tweets: 341,
+      tweets: 3455,
       subscribers: 3421,
       subscriptions: 6254
     };
 return (
-    <div className='container'>
+    < className='container'>
        <div className='blockavatar'>
          <Avatar user={avatar} />
          <h1>Emma Braun</h1>
        </div>
+       <button>+</button>
        <div className='information'><Inform user={inform} />
        </div>
     </div>
